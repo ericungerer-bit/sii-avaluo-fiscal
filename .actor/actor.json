@@ -1,0 +1,8 @@
+{
+    "actorSpecification": 1,
+    "name": "sii-avaluo-fiscal",
+    "title": "SII Avaluo Fiscal Chile",
+    "version": "0.0",
+    "input": "./input_schema.json",
+    "dockerfile": "../Dockerfile"
+}
