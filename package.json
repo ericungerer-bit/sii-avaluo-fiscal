@@ -1,0 +1,13 @@
+{
+    "name": "sii-avaluo-fiscal",
+    "version": "0.0.1",
+    "type": "module",
+    "description": "Scraper del avaluo fiscal SII Chile por comuna y rol",
+    "dependencies": {
+        "apify": "^3.2.0",
+        "@crawlee/cheerio": "^3.11.0"
+    },
+    "scripts": {
+        "start": "node src/main.js"
+    }
+}
