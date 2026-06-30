@@ -1,0 +1,38 @@
+{
+    "title": "SII Avaluo Fiscal",
+    "type": "object",
+    "schemaVersion": 1,
+    "properties": {
+        "region": {
+            "title": "Codigo Region SII",
+            "type": "string",
+            "description": "Codigo de region del SII",
+            "editor": "textfield"
+        },
+        "comuna": {
+            "title": "Codigo Comuna SII",
+            "type": "string",
+            "description": "Codigo de comuna del SII",
+            "editor": "textfield"
+        },
+        "rol1": {
+            "title": "Rol primera parte",
+            "type": "string",
+            "description": "Numero de manzana del rol",
+            "editor": "textfield"
+        },
+        "rol2": {
+            "title": "Rol segunda parte",
+            "type": "string",
+            "description": "Numero de predio del rol",
+            "editor": "textfield"
+        },
+        "modo_diagnostico": {
+            "title": "Modo diagnostico",
+            "type": "boolean",
+            "description": "Devuelve el HTML crudo del SII",
+            "default": false
+        }
+    },
+    "required": ["comuna", "rol1"]
+}
